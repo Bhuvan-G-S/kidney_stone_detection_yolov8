@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['kidneystone']
+
+roboflow:
+  workspace: bhuv-7sdq9
+  project: kidney-ql5tq
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bhuv-7sdq9/kidney-ql5tq/dataset/8
